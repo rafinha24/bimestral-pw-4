@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>bimestral-4°bim-pw</title>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="form-image">
+            <img src="style/img/OIP.jpeg" alt="Unilever Logo">
+        </div>
+        <div class="form">
+            <form action="#">
+                <div class="form-header">
+                    <div class="title">
+                       <h1>Recrutamento</h1> 
+                    </div>
+                    <div class="login-button">
+                        <button><a href="#">Registrar</a></button>
+                    </div>
+                </div>
+
+                <div class="input-group">
+                    <div class="input-box">
+                        <label for="firstname">Primeiro Nome</label>
+                        <input id="firstname" type="text" name="firstname" placeholder="Digite seu primeiro nome" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="lastname">Sobrenome</label>
+                        <input id="lastname" type="text" name="lastname" placeholder="Digite seu sobrenome" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="email">E-mail</label>
+                        <input id="email" type="email" name="email" placeholder="Digite seu email" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="number">Celular</label>
+                        <input id="number" type="tel" name="number" placeholder="(xx) xxxx-xxxx" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="area">Área</label>
+                        <select id="area" name="area" required>
+                            <option value="" disabled selected>Selecione sua área</option>
+                            <option value="administracao">Administração</option>
+                            <option value="marketing">Marketing</option>
+                            <option value="produção">produção</option>
+                            <option value="tecnologia">Tecnologia</option>
+                        </select>
+                    </div>
+
+                    <div class="input-box full-width">
+                        <label for="summary">Resumo</label>
+                        <textarea id="summary" name="summary" placeholder="Escreva um breve resumo sobre você"></textarea>
+                    </div>
+                    
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
